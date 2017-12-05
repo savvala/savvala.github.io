@@ -1,5 +1,8 @@
+body {
+  align-items: center;
+}
 .section {
-  margin-bottom: 300px;
+  padding-top: 300px;
 }
 
 #page-wrap {
@@ -8,24 +11,39 @@
   padding: 1rem;
 }
 
+.savva {
+  font-size: 100px;
+}
+
+#two, #three, #four {
+  font-size: 70px;
+}
 h1, h2 {
   line-height: 1.2;
+  margin: 0 auto;
+}
+
+.projects {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+#three {
+  margin-left: 39px;
 }
 
 p, ul, h1 {
   margin: 0 0 1rem 0;
+  padding-left: 20px;
 }
 
 .project {
   height: 400px;
-  width: 400px;
+  width: 600px;
   border: thick, black;
 }
 
 .section {
-  justify-content: center;
-}
-
-body {
-  justify-content: center;
+  position: relative;
+  margin: 0 auto;
 }
