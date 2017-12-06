@@ -1,8 +1,10 @@
 body {
+  max-width: 100%;
   align-items: center;
 }
 .section {
   padding-top: 300px;
+  align-items: center;
 }
 
 #page-wrap {
@@ -32,10 +34,24 @@ h1, h2 {
   margin-left: 39px;
 }
 
-p, ul, h1 {
+p, h1 {
   margin: 0 0 1rem 0;
   padding-left: 20px;
   font-size: 25px;
+}
+
+ul {
+  display:table;
+  margin:0 auto;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+h4 {
+  display:table;
+  margin:0 auto;
+  font-size: 25px;
+  padding: 20px 0 20px 0;
 }
 
 .project {
@@ -47,4 +63,29 @@ p, ul, h1 {
 .section {
   position: relative;
   margin: 0 auto;
+}
+
+.js:hover {
+  ;
+}
+.react:hover {
+  ;
+}
+.angular:hover {
+  ;
+}
+.ejs:hover {
+  ;
+}
+.jq:hover {
+  ;
+}
+.express:hover {
+  ;
+}
+.mongo:hover {
+  ;
+}
+.node:hover {
+  ;
 }
